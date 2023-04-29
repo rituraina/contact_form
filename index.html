@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="cont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="contact-form">
+        
+        <form method="post" action="">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="phone" placeholder="Phone No" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+           
+            <div class="captcha">
+                <lable for="captcha-input">Enter captcha</lable>
+            <div class="preview"></div>
+            <div class="captcha-form">
+                <input type="text"id ="captcha-form"
+                placeholder="Enter captcha text">
+                <button class="captcha-refresh">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+            <i class="fa-solid fa-plane-engines"></i>
+            </div>
+           </div  >
+           <div class="submit-btn"><button type="button" class="btn">Submit</button></div>
+            
+
+        </form>
+      
+
+    </div>
+</body>
+</html>

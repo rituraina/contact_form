@@ -1,0 +1,90 @@
+
+body{
+    margin: 200px;
+    margin:0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+}
+.contact-form{
+box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+margin: 50px auto;
+width: 350px;
+text-align: center;
+/* border: 2px solid black; */
+}
+.contact-form h2{
+    background-color:#efefef;
+    margin-top: 0;
+    padding: 10px;
+}
+.contact-form input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.contact-form textarea {
+     width: 90%;
+     margin: 5px auto;
+     padding: 10px;
+     height: 80px;
+}
+.contact-form.form-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+}
+.contact-form.captcha{
+    margin: 15px 0px;
+}
+.contact-form .captcha .preview{
+     color: #555;
+width: 100%;
+text-align: center;
+height: 40px;
+line-height: 40px;
+letter-spacing: 8px;
+border: 1px dashed #888;
+font-family: "monospace";
+}
+.contact-form.captcha.preview  span{
+    display: inline-block;
+    user-select: none;
+}
+.contact-form.captcha.contact-form{
+    display: flex;
+}
+.contact-form.captcha.contact-form input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #888;
+
+}
+.contact-form.captcha.contact-form.captcha-refresh{
+    width: 40px;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px
+    
+    
+}
+ 
+.btn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
